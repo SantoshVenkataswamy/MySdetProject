@@ -27,28 +27,28 @@
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>
     <version>3.0.2</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 <!--  Runners -->
 <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
     <version>3.0.2</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.12</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 
 <dependency>
     <groupId>org.assertj</groupId>
     <artifactId>assertj-core</artifactId>
     <version>3.10.0</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency> 
 <dependency>
 	<groupId>com.aventstack</groupId>
@@ -59,7 +59,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.14.3</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
@@ -111,7 +111,7 @@
 		          <tag>@important,@billing</tag>
 		        </tags-->
         	<!-- Generate TestNG runners instead of JUnit ones. --> 
-			<useTestNG>false</useTestNG>
+			<useTestNG>true</useTestNG>
 		        
 		      </configuration>
 		    </execution>
